@@ -1,5 +1,7 @@
+import cgi
 import os
-
+ cmd=cgi.getvalue(cmd)
+ print(cmd)
 while True:
  print()
  ask=input("What can I do for you : ")
